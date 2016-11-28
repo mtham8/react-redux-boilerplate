@@ -4,7 +4,7 @@ const { Link } = require('react-router')
 const Landing = () => (
   <div>
     <h1>Landing Component</h1>
-    <Link to='/component1'> Component1 </Link>
+    <Link to='/component1' className='nav-button'> Go to Component1 </Link>
   </div>
 )
 
