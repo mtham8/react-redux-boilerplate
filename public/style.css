@@ -7,6 +7,10 @@ h1 {
   padding: 0;
 }
 
+.app-container {
+  background-color: mediumaquamarine;
+}
+
 html {
   font-family: Helvetica Neue, Helvetica, sans-serif;
 }
