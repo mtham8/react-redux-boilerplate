@@ -5,8 +5,7 @@ module.exports = {
   entry: './js/ClientApp.jsx',
   output: {
     path: path.join(__dirname, '/public'),
-    filename: 'bundle.js',
-    publicPath: '/public/'
+    filename: 'bundle.js'
   },
   resolve: {
     extensions: ['', '.js', '.jsx', ',json']
@@ -14,7 +13,7 @@ module.exports = {
   stats: {
     colors: true,
     resons: true,
-    chunks: true
+    chunks: false
   },
   module: {
     preLoaders: [
