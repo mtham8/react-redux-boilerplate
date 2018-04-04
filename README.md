@@ -1,5 +1,5 @@
 # react-redux boilerplate
 
-Basic setup to get react-redux ecosystem working.
+Basic setup to jumpstart a react-redux ecosystem.
 
 Major updates coming soon!
